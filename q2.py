@@ -9,7 +9,7 @@ counter = 0
 while True:
     input_string = input()
 
-    if input_string == "stop" or input_string == "":
+    if input_string == "stop" or input_string == "STOP":
         break
     
     if counter == 0:
